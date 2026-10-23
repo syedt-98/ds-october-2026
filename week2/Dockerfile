@@ -5,8 +5,7 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY ./app /app
-COPY housing_model.keras /app/housing_model.keras
+COPY main.py best_model.keras scaler.pkl ./
 
 EXPOSE 8000
 
