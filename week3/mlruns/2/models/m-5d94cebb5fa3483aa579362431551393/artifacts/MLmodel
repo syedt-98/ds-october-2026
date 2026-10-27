@@ -1,0 +1,29 @@
+artifact_path: file:c:/syed_taha/ds-october-2026/week2/mlruns/2/models/m-5d94cebb5fa3483aa579362431551393/artifacts
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.14.7
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.22.0-rc0
+    model_type: keras
+    save_format: tf
+is_signature_from_type_hint: false
+mlflow_version: 3.17.1
+model_id: m-5d94cebb5fa3483aa579362431551393
+model_size_bytes: 81163
+model_uuid: m-5d94cebb5fa3483aa579362431551393
+prompts: null
+run_id: bf752803bf344a3785a8a22cb2a6fcf6
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 13]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1,
+    1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-10-21 12:46:18.404149'
